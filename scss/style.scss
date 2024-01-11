@@ -1,0 +1,451 @@
+html{
+  margin: 0px;
+  padding: 0px;
+  
+}
+//Header Font
+.xl-text{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+//Navbar Button
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+}
+
+.btn-outline-secondary {
+  &:hover {
+    color: #fff;
+  }
+}
+
+//Decoration Star Image
+.header .decoration-star{
+  top:80px;
+  left:-200px;
+  width: 500px;
+  opacity: 0.7;
+}
+.header .decoration-star-2{
+  top: 80px;
+  right: -200px;
+  width: 500px;
+  opacity: 0.7;
+} 
+
+//Sticky Navbar Css For Js
+.navbar{
+  transition: all 0.5s ease-in-out;
+}
+.navbar-sticky{
+  background: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+//HeadingIntro
+.HeadingIntro{
+  font-weight: bold;
+}
+//Details Decoration Img
+.details .decoration-star{
+ left:-200px;
+ width: 500px;
+}
+
+//Details Decoration Img
+.solutions .decoration-star{
+  right:0px;
+  width: 500px;
+  top:3000px;
+ }
+
+ //NewsLatter Decoration Img
+.news .decoration-star{
+  left:-200px;
+  width: 600px;
+  top:4350px;
+  height: 390px;
+ }
+ 
+//Video Play Button
+.video-play-button {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 32px;
+  height: 44px;
+  border-radius: 50%;
+  display: block;
+  box-sizing: content-box;
+  padding: 1.125rem 1.25rem 1.125rem 1.75rem;
+  cursor: pointer;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  display: block;
+  background: var(--bs-secondary);
+  cursor: pointer;
+  animation: pulse-border 1500ms ease-in-out infinite;
+}
+
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: block;
+  background: var(--bs-secondary);
+  cursor: pointer;
+  transition: all 200ms;
+}
+//Video Play Button
+.video-play-button span {
+  position: relative;
+  display: block;
+  z-index: 3;
+  top: 6px;
+  left: 4px;
+  width: 0;
+  height: 0;
+  border-left: 26px solid #fff;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+}
+
+//Key Frame
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+//Video Model Video
+.video-modal .modal-dialog{
+  max-width: 1150px;
+  margin-top: 20px;
+}
+
+//Scrolling Top Button
+.to-top-btn{
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: #44434a;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; 
+}
+.to-top-btn{
+  &:hover{
+    background-color: #1d1d21;
+  }
+}
+
+.arrowimg{
+    margin-bottom: 0.25rem;
+    width: 18px;
+  }
+.show{
+  opacity: 1;
+}
+//Industries Model
+.industries-modals .modal-dialog{
+  max-width: 1000px;
+  margin-top: 130px;
+}
+
+//Company Name
+#cname {
+  box-shadow: inset 0 0 0 0 #2783c2;
+  padding: 2px;
+  margin:  2px;
+  transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+}
+#cname:hover {
+  box-shadow: inset 200px 0 0 0 #fff;
+}
+
+//Socail Links
+#slink {
+  font-size:20px;
+  transition:.1s ease-in-out;
+}
+#slink:hover {
+    color: #cc2973;
+}
+//Footer Links
+#flink {
+  transition: .2s ease-in-out;
+}
+#flink:hover {
+   color: #cc2973 !important;
+}
+
+
+
+// Contact Us Page
+.con {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.h11 {
+	font-weight: 700;
+	padding-bottom: 50px;
+	font-size: 38px;
+}
+
+.mainn {
+	padding-left: 50px;
+}
+
+.frdiv {
+	padding-bottom: 85px;
+}
+
+.na {
+	display: block;
+	font-weight: 600;
+	font-weight: bold;
+	width: 130px;
+	float: left;
+	color: #929090;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+.in::placeholder {
+
+	color: #cccccc;
+	font-size: 18px;
+
+}
+
+.in {
+	width: 500px;
+	border: none;
+	outline: none;
+	padding: 7px;
+	border-bottom: 2px solid #cccccc;
+}
+
+.in:hover {
+	border-bottom: 2px solid #cc2973;
+}
+
+#bt {
+	padding-left: 70px;
+	padding-right: 70px;
+	border-radius: 50px;
+	font-weight: 600;
+}
+
+#bt:hover {
+	background-color: #4555d2;
+	border: 1px solid rgb(255, 255, 255);
+	font-weight: 600;
+}
+
+.frdbt {
+	padding-left: 160px;
+}
+
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	width: 70%;
+	height: 760px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	width: 100%;
+	height: 760px;
+}
+
+.gmap_iframe {
+	height: 760px !important;
+
+}
+
+
+// Media Query
+@media screen and (max-width:900px) {
+
+	.mainn {
+		width: 100%;
+		
+	}
+
+	.in {
+		margin-right: 50px;
+	}
+
+	.mapouter {
+
+		width: 85%;
+		margin-left: 25px;
+	}
+	.in {
+	width: 250px;
+    }
+    .na{
+		width: 100%;
+	}
+	.frdbt {
+	padding-left: 0px;
+}
+}
+
+@media screen and (max-width:700px) {
+	.con {
+
+		display: inline-block;
+
+	}
+
+	.mainn {
+		width: 100%;
+		margin-left: 20px;
+	}
+
+	.in {
+		margin-right: 50px;
+	}
+
+	.mapouter {
+
+		width: 85%;
+		margin-left: 25px;
+	}
+	.in {
+	width: 250px;
+    }
+    .na{
+		width: 100%;
+	}
+	.frdbt {
+	padding-left: 0px;
+}
+}
+
+//Media Query For Tablet And Mobile Size
+//For Tablet
+@media only screen and (max-width:992px)
+{
+   .xl-text{
+    font-size: 50px;
+   }
+   .navbar{
+     .btn-outline-secondary{
+      margin-top: 20px;
+     }
+   }
+    header.header.position-relative.mt-6.overflow-hidden {
+    margin-top: 0 !important;
+    text-align: center;
+  }
+ .header .decoration-star{
+  left:-100px;
+  width: 250px;
+ }
+ .header .decoration-star-2{
+  right: -100px;
+  width: 250px;
+ } 
+ .image-container{
+  margin-top: 30px;
+ }
+ .solutions .decoration-star{
+  display: none;
+ }
+   //NewsLatter Decoration Img
+.news .decoration-star{
+  display: none;
+ }
+
+ //Video Points
+ .video-points{
+  padding: 0 !important;
+  text-align: center;
+ }
+ .video-points .col-lg-4{
+  margin-bottom: 20px;
+ }
+}
+//For Mobile
+@media only screen and (max-width:576px)
+{
+
+
+  
+}
+//For News Decoration-star
+@media only screen and (max-width:1200px)
+{
+  //NewsLatter Decoration Img
+.news .decoration-star{
+  left:-200px;
+  width: 600px;
+  top:4600px;
+  height: 390px;
+
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  

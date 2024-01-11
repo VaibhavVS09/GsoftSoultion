@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>G-Soft | About</title>
+    <!-- Custome Css File Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Bootstrap Css File Link -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <!-- Fontasesome Css FIle Link -->
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <!-- Icoin Link -->
+    <link rel="icon" href="images/gsoftlogo11.png" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <!-- Brand Logo -->
+      <div class="container">
+        <a class="navbar-brand">
+          <img src="images/gsoftlogo.png" alt="" width="200" />
+        </a>
+        <!-- Toggler Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- NavBar Link Items -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./industries.html">Industries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./technologies.html">Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="./contactus.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hedaer -->
+    <section class="mb-5 bg-info">
+      <div class="container pt-5 pb-5 text-center">
+        <div class="row">
+          <div class="pt-3">
+            <h5 class="text-white-50">About Us</h5>
+          </div>
+          <div class="pt-3 pb-5">
+            <h1 class="text-white">Lorem ipsum dolor sit amet.</h1>
+            <h1 class="text-white">Lorem, ipsum dolor.</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video -->
+    <section class="video my-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-column align-items-center">
+            <div class="position-relative">
+              <img src="./images/img.jpg" alt="" class="img-fluid" />
+              <a
+              class="video-btn" 
+              data-bs-toggle="modal" 
+              data-bs-target="#videoModal" 
+              data-bs-src="https://www.youtube.com/embed/7IQRoszdnKQ?si=EBHYyj1sGdanPGku"
+              >
+                <span class="video-play-button">
+                  <span></span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row video-points px-6 mt-6">
+          <div class="col-lg-4">
+            <h4 class="fw-bold">10 Years Of Experience</h4>
+            <p>
+              With over 10 years of experience, we have gained valuable insights
+              and expertise to deliver high-quality software solutions
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Enduring Partnerships</h4>
+            <p>
+              We believe in building enduring partnerships with our clients. We
+              establish long-term relationships based on trust
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Skilled Capable Team</h4>
+            <p>
+              Our team consists of skilled and capable professionals who are
+              passionate about delivering excellence
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Modal -->
+      <div class="video-modal">
+        <div id="videoModal" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="ratio ratio-16x9">
+                <iframe 
+                src="https://www.youtube.com/embed/7IQRoszdnKQ?si=EBHYyj1sGdanPGku"
+                frameborder="0" 
+                class="embed-responsive-item" 
+                id="video"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leader -->
+    <section class="mb-5 bg-info">
+      <div class="container pt-3 pb-5 text-center">
+        <div class="row">
+          <div class="pt-3">
+            <h5 class="text-white-50">Our Leaders</h5>
+          </div>
+          <div class="pt-3 pb-3">
+            <h1 class="text-white">Lorem ipsum dolor sit amet.</h1>
+            <h1 class="text-white">Lorem, ipsum dolor.</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials bg-light py-6">
+      <div id="testimonialCarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-1.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                error id velit nisi nobis voluptatem aliquam blanditiis,
+                corporis dolor laborum pariatur perspiciatis! Accusamus, esse?
+                Eum distinctio iste quaerat dolores quasi!
+              </p>
+              <div class="fw-bold fs-5 mt-4">ABC</div>
+              <div>General Manager - Scouter</div>
+            </div>
+          </div>
+          <!-- Silde 2 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-2.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                error id velit nisi nobis voluptatem aliquam blanditiis,
+                corporis dolor laborum pariatur perspiciatis! Accusamus, esse?
+                Eum distinctio iste quaerat dolores quasi!
+              </p>
+              <div class="fw-bold fs-5 mt-4">PQR</div>
+              <div>General Manager - Scouter</div>
+            </div>
+          </div>
+          <!-- Silde 3 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-3.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                error id velit nisi nobis voluptatem aliquam blanditiis,
+                corporis dolor laborum pariatur perspiciatis! Accusamus, esse?
+                Eum distinctio iste quaerat dolores quasi!
+              </p>
+              <div class="fw-bold fs-5 mt-4">XYZ</div>
+              <div>CEO - Scouter</div>
+            </div>
+          </div>
+          <!-- Sidel 4 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-1.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                error id velit nisi nobis voluptatem aliquam blanditiis,
+                corporis dolor laborum pariatur perspiciatis! Accusamus, esse?
+                Eum distinctio iste quaerat dolores quasi!
+              </p>
+              <div class="fw-bold fs-5 mt-4">MNO</div>
+              <div>MD - Scouter</div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="prev"
+        >
+          <i class="fas fa-arrow-circle-left fa-3x text-secondary"></i>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="next"
+        >
+          <i class="fas fa-arrow-circle-right fa-3x text-secondary"></i>
+        </button>
+      </div>
+    </section>
+
+       <!-- Footer  -->
+       <footer class="bg-light text-dark pt-5 pb-4 mt-5">
+     
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+            <!-- 1st Column -->
+            <div class="col-md-3  col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold text-secondary">About Us <i class="fa-solid fa-eject ms-2"></i></h5>
+              <hr class="mb-4" />
+              <div class="text-start ms-2">
+              <p class="fw-medium">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                architecto consectetur iste illum reiciendis aut quibusdam quam
+                nemo laudantium quisquam!
+              </p>
+              </div>
+            </div>
+            <!-- 2nd Column -->
+            <div class="col-md-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold text-secondary">
+                IT Services <i class="fa-brands fa-servicestack ms-2"></i>
+              </h5>
+              <hr class="mb-4" />
+              <div class="text-start ms-2">
+              <p>
+                <a
+                  href="./index.html#solu" 
+                  class="text-dark fw-medium"
+                  style="text-decoration: none"
+                  id="flink"
+                  >Solution</a
+                >
+              </p>
+              <p>
+                <a
+                  href="./industries.html"
+                  class="text-dark fw-medium"
+                  style="text-decoration: none"
+                  id="flink"
+                  >Industries</a
+                >
+              </p>
+              <p>
+                <a
+                  href="./technologies.html"
+                  class="text-dark fw-medium"
+                  style="text-decoration: none"
+                  id="flink"
+                  >Technologies</a
+                >
+              </p>
+              </div>
+            </div>
+            <!-- 3rd Column -->
+            <div class="col-md-2  col-xl-2 mx-auto mt-3 ">
+              <h5 class="text-uppercase mb-4 fw-bold text-secondary">Support <i class="fa-solid fa-headset ms-2"></i> </h5>
+              <hr class="mb-4" />
+              <div class="text-start ms-2">
+              <p>
+                <a
+                  href="./about.html"
+                  class="text-dark fw-medium"
+                  style="text-decoration: none"
+                  id="flink"
+                  >About Us </a
+                >
+              </p>
+              <p>
+                <a
+                  href="./contactus.html"
+                  class="text-dark fw-medium"
+                  style="text-decoration: none"
+                  id="flink"
+                  >Contact Us</a
+                >
+              </p>
+              <p>
+                <a
+                  href=""
+                  class="text-dark fw-medium"
+                  style="text-decoration: none"
+                  id="flink"
+                  >Terms & Conditions</a
+                >
+              </p>
+              </div>
+            </div>
+            <!-- 4th Column -->
+            <div class="col-md-4  col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold text-secondary">Contact <i class="fa-solid fa-location-dot ms-2"></i></h5>
+              <hr class="mb-4" />
+              <div class="text-start ms-2">
+              <p>
+                <li class="fas fa-home"></li>
+                <a href="https://maps.app.goo.gl/hiZZBzLeRWMJc1waA" 
+                class="fw-medium text-dark" 
+                style="text-decoration: none;"
+                id="flink"
+                > 
+                203, Dangat Park,Mumbai-Bangalore Highway Warje, Pune - 411058</a> 
+              </p>
+              <p>
+                <li class="fas fa-envelope"></li>
+                <a href="mailto:gsoftsolution@gmail.com" target="_blank"
+                class="fw-medium text-dark" 
+                style="text-decoration: none;"
+                id="flink">
+                gsoftsolution@gamil.com</a>
+              </p>
+              <p>
+                <li class="fas fa-phone"></li>
+                <a href="1234567891" 
+                class="fw-medium text-dark" 
+                style="text-decoration: none;"
+                id="flink">
+                 1234567891</a>
+              </p>
+              <p>
+                <li class="fas fa-print"></li>
+                <a href="1234567891" 
+                class="fw-medium text-dark" 
+                style="text-decoration: none;"
+                id="flink"> 
+                1234567891</a>
+              </p>
+            </div>
+            </div>
+  
+            <hr class="mb-4">
+              <div class="row d-flex justify-content-center">
+                <div>
+                  <p>
+                    &#169  Copyright 2023 All Rights Reserved By:
+                    <a href="#" style="text-decoration: none">
+                      <strong class="text-secondary" id="cname">G-Soft Solutions</strong>
+                    </a>
+                  </p>
+                </div>
+              </div>
+             
+              <div class="row d-flex justify-content-center">
+                <div class="text-center">
+                  <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="text-dark">
+                        <i class="fab fa-facebook" id="slink"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="text-dark">
+                        <i class="fab fa-twitter" id="slink"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="text-dark">
+                        <i class="fab fa-google-plus" id="slink"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="text-dark">
+                        <i class="fab fa-linkedin-in" id="slink"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="text-dark">
+                        <i class="fab fa-youtube" id="slink"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Custome js FIle Lnik -->
+    <script src="./js/script.js"></script>
+    <!-- BootStrap js File Link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
